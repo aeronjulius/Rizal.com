@@ -1,3 +1,13 @@
+:root {
+    --white: #ffffff;
+    --black: #800080;
+    --light-color: #9457eb;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --border: .1rem solid #810541);
+    --red: #dbac72;
+    --light-red: #FFC0CB;
+}
+
 *
 {
     padding: 0;
@@ -432,3 +442,15 @@ div.futere-image-5
     background-repeat: no-repeat;
     background-image: url('./img/future-6.jpg');
 }
+
+.footer .credit {
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color: var(--red);
+}
+
